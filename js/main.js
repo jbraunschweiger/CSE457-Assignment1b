@@ -236,7 +236,7 @@ function changeData() {
         randomSubset();
     }
     else{
-        d3.csv('../data/' + dataFile + '.csv').then(update);
+        d3.csv('https://raw.githubusercontent.com/jbraunschweiger/CSE457-Assignment1b/master/data/' + dataFile + '.csv').then(update);
     }
 }
 
@@ -246,7 +246,7 @@ function randomSubset() {
     // passing the data to update()
     var dataFile = document.getElementById('dataset').value;
     if (document.getElementById('random').checked) {
-        d3.csv('../data/' + dataFile + '.csv').then(function(data) {
+        d3.csv('https://raw.githubusercontent.com/jbraunschweiger/CSE457-Assignment1b/master/data/' + dataFile + '.csv').then(function(data) {
             var subset = [];
             data.forEach(function (d) {
                 if (Math.random() > 0.5) {
