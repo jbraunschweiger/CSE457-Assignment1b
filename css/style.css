@@ -1,0 +1,72 @@
+.bar {
+  fill: brown;
+  stroke: gray;
+  stroke-width: 2;
+}
+
+.bar-hover {
+  fill: gold;
+  stroke: gray;
+  stroke-width: 2;
+}
+
+.line {
+  fill: transparent;
+  stroke: brown;
+  stroke-width: 2;
+}
+
+.area {
+  fill: brown;
+}
+
+circle {
+  fill: steelblue;
+}
+
+.scatter-plot {
+  border-width: 2px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.scatter-dot {
+  fill: brown;
+}
+
+.scatter-dot:hover {
+  fill: gray;
+}
+
+.frame {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+/* Styles that clean up the layout;
+* you can ignore these */
+
+
+
+.tip {
+  position: absolute;			
+  text-align: center;			
+  width: 50px;					
+  height: 20px;					
+  padding: 2px;
+  color: white;				
+  font: 10px sans-serif;		
+  background: gray;	
+  border: 0px;		
+  border-radius: 8px;			
+  pointer-events: none;	
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
